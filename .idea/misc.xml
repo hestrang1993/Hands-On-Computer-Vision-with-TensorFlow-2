@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="PyCharmProfessionalAdvertiser">
     <option name="shown" value="true" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (tensorflow_2)" project-jdk-type="Python SDK" />
+  <component name="PythonCompatibilityInspectionAdvertiser">
+    <option name="version" value="3" />
+>>>>>>> 1794596 (Started Work on Chapter 01)
   </component>
 </project>
