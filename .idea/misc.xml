@@ -5,6 +5,9 @@
     <option name="shown" value="true" />
 =======
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (tensorflow_2)" project-jdk-type="Python SDK" />
+  <component name="PyCharmProfessionalAdvertiser">
+    <option name="shown" value="true" />
+  </component>
   <component name="PythonCompatibilityInspectionAdvertiser">
     <option name="version" value="3" />
 >>>>>>> 1794596 (Started Work on Chapter 01)
