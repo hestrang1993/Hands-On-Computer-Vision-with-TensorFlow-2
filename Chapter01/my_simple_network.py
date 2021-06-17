@@ -1,7 +1,6 @@
 """
-# TODO: Write docstring for this module. Finish MyFullyConnectedLayer.
+# TODO: Write doctring for this module. Finish MyFullyConnectedLayer.
 """
-import numpy as np
 
 from Chapter01.activation_functions import derivative_of_sigmoid_function
 from Chapter01.activation_functions import sigmoid_function
@@ -34,16 +33,16 @@ class MySimpleNetwork:
             The input vector size / number of input values.
         number_of_outputs : int
             The output vector size.
-        hidden_layers_sizes : (int, int), optional
+        hidden_layers_sizes : (int, int)
             A list of sizes for each hidden layer to add to the network.
-        activation_functions : function, optional
+        activation_functions : function
             The activation function for all the layers.
-        derivative_of_the_activation_function : function, optional
+        derivative_of_the_activation_function : function
             The derivative of the activation function.
-        loss_functions : function, optional
+        loss_functions : function
             The loss function to train this network with.
-        derivative_of_the_loss_function : function, optional
-            The derivative of the loss function, for back-propagation.
+        derivative_of_the_loss_function : function
+            The derivative of the loss function, for back-propagation
         """
         self.layer_sizes = [
                 number_of_inputs,
@@ -58,9 +57,6 @@ class MySimpleNetwork:
         function: The activation function for all the layers.
         """
         self.derivative_of_the_activation_function = derivative_of_the_activation_function
-        """
-        function: The derivative of the activation function.
-        """
         self.layers = [
                 MyFullyConnectedLayer(
                         number_of_inputs = self.layer_sizes[i],
@@ -70,50 +66,5 @@ class MySimpleNetwork:
                 )
                 for i in range(len(self.layer_sizes) - 1)
         ]
-        """
-        list[MyFullyConnectedLayer]: The list of layers forming this simple network.
-        """
         self.loss_functions = loss_functions
-        """
-        function: The loss function to train this network with.
-        """
         self.derivative_of_the_loss_function = derivative_of_the_loss_function
-        """
-        function: The derivative of the loss function, for back-propagation.
-        """
-
-    def forward(self, x):
-        """
-        Forward the input vector through the layers, returning the output vector.
-
-        Parameters
-        ----------
-        x : ndarray
-            The input vector.
-
-        Returns
-        -------
-        ndarray
-            The output activation value.
-        """
-        for layer in self.layers:
-            x = layer.forward(x)
-        return x
-
-    def predict(self, x):
-        """
-        Compute the output corresponding to input ``x``, and return the index of the largest output value.
-
-        Parameters
-        ----------
-        x : ndarray
-            The input vector.
-
-        Returns
-        -------
-        int
-            The predicted class ID.
-        """
-        estimation = self.forward(x)
-        best_class = np.argmax(estimation)
-        return best_class
