@@ -18,6 +18,7 @@ Status = "Prototype" # "Prototype", "Development", or "Production"
 #==============================================================================
 
 import numpy as np
+
 from fully_connected_layer import FullyConnectedLayer
 
 
@@ -108,7 +109,7 @@ class SimpleNetwork(object):
 
     def backward(self, dL_dy):
         """
-        Back-propagate the loss hrough the layers (require `forward()` to be called before).
+        Back-propagate the loss through the layers (require `forward()` to be called before).
         Args:
             dL_dy (ndarray): The loss derivative w.r.t. the network's output (dL/dy).
         Returns:
