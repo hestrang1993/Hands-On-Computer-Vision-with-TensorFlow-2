@@ -29,7 +29,7 @@ def l2_loss_function(y_predicted, y_true):
 
     Returns
     -------
-    int or float
+    float
         The value of the L2 loss function.
     """
     batch_size = y_predicted.shape[0]
@@ -55,7 +55,7 @@ def l1_loss_function(y_predicted, y_true):
 
     Returns
     -------
-    int or float
+    float
         The value of the L1 loss function.
     """
     batch_size = y_predicted.shape[0]
@@ -82,7 +82,7 @@ def binary_cross_entropy_loss_function(y_predicted, y_true):
 
     Returns
     -------
-    int or float
+    float
         The value of the L1 loss function.
     """
     a = np.multiply(y_true, np.log(y_predicted))
@@ -128,7 +128,7 @@ def derivative_of_binary_cross_entropy_loss_function(y_predicted, y_true):
 
     Returns
     -------
-    int or float
+    float
         The derivative of the BCE loss function.
     """
     numerator = (y_predicted - y_true)
