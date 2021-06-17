@@ -108,7 +108,7 @@ def derivative_of_l2_loss_function(y_predicted, y_true):
 
     Returns
     -------
-    int or float
+    float
         The derivative of the L2 loss function.
     """
     y = 2 * (y_predicted - y_true)
