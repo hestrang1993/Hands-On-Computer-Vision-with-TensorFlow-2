@@ -34,28 +34,6 @@ def sigmoid_function(x):
     y = numerator / denominator
     return y
 
-
-def derivative_of_sigmoid_function(x):
-    """
-    Use the derivative of the sigmoid function.
-
-    .. math::
-        \\frac{ \\mathrm{ dS } }{ \\mathrm{ d } x } = y \left( 1 - x \\right)
-
-    Parameters
-    ----------
-    x : int or float
-        The value back-propagated from the proceeding layer.
-
-    Returns
-    -------
-    int or float
-        The value to back-propagate to the preceding layer.
-    """
-    y = x * (1 - x)
-    return y
-
-
 def hyperbolic_tangent_function(x):
     """
     Use the hyperbolic tangent function as an activation function.
@@ -85,6 +63,53 @@ def hyperbolic_tangent_function(x):
     return y
 
 
+def rectified_linear_unit_function(x):
+    """
+    Use the rectified linear unit (ReLU) function.
+
+    .. math::
+        \\text{ReLU} \\left( x \\right) = \\begin{Bmatrix} 0 & \\text{if } x < 0 \\ x & \\text{if } x \\geq 0 \\end{
+        matrix}
+
+    Parameters
+    ----------
+    x : int or float
+        The weighted sum.
+
+    Returns
+    -------
+    int or float
+        The output of the neuron based on the ReLU activation function.
+    """
+    y = np.maximum(x, 0)
+    return y
+
+
+# ==============================================================================
+# Derivatives of the Activation Functions
+# ==============================================================================
+
+def derivative_of_sigmoid_function(x):
+    """
+    Use the derivative of the sigmoid function.
+
+    .. math::
+        \\frac{ \\mathrm{ dS } }{ \\mathrm{ d } x } = y \left( 1 - x \\right)
+
+    Parameters
+    ----------
+    x : int or float
+        The value back-propagated from the proceeding layer.
+
+    Returns
+    -------
+    int or float
+        The value to back-propagate to the preceding layer.
+    """
+    y = x * (1 - x)
+    return y
+
+
 def derivative_of_hyperbolic_tangent_function(x):
     """
     Use the derivative of the hyperbolic tangent function.
@@ -104,32 +129,6 @@ def derivative_of_hyperbolic_tangent_function(x):
     """
     y = 1 - np.tanh(x) ** 2
     return y
-
-
-def rectified_linear_unit_function(x):
-    """
-    Use the rectified linear unit (ReLU) function.
-
-    .. math::
-        \\text{ReLU} \\left( x \\right) = \\begin{Bmatrix} 0 & \\text{if } x < 0 \\ x & \\text{if } x \\geq 0 \\end{
-        matrix}
-
-    Parameters
-    ----------
-    x : int or float
-        The weighted sum.
-
-    Returns
-    -------
-    int or float
-        The output of the neuron based on the ReLU activation function.
-    """
-    if x < 0.0:
-        y = 0.0
-    else:
-        y = x
-    return y
-
 
 def derivative_of_rectified_linear_unit_function(x):
     """
