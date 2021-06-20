@@ -30,6 +30,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -97,7 +98,7 @@
   <component name="ReaderModeSettings">
     <option name="showWarnings" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.simple_neural_network _tf_keras">
     <configuration name="my_fully_connected_layer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hands-On-Computer-Vision-with-TensorFlow-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,8 +120,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="simple_neural_network _tf_keras" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Hands-On-Computer-Vision-with-TensorFlow-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter02/simple_neural_network _tf_keras.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.simple_neural_network _tf_keras" />
         <item itemvalue="Python.my_fully_connected_layer" />
       </list>
     </recent_temporary>
@@ -235,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624160664370</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Note To Self&#10;&#10;Learn how to use Git better.">
+      <created>1624161019915</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1624161019915</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -247,12 +277,13 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="BEK_SORT_TYPE" value="1" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="my_work" />
+                        <option value="chapter_02" />
                       </list>
                     </value>
                   </entry>
@@ -271,6 +302,16 @@
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="my_work" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
                 </option>
               </RecentGroup>
             </list>
@@ -299,7 +340,8 @@
     <MESSAGE value="build(main): create a file to run my test&#10;&#10;Create a Chapter01.main.py file.&#10;&#10;I intend to run my simple network from&#10;this file.&#10;&#10;Harrison Strang" />
     <MESSAGE value="feat(main): one-hot data labels&#10;&#10;Add function to one-hot the training and testing labels.&#10;&#10;Harrison Strang" />
     <MESSAGE value="build(tensorflow_2.yml, requirements.txt): add tensorflow and related packages&#10;&#10;Add TensorFlow and related packages.&#10;&#10;Harrison Strang" />
-    <option name="LAST_COMMIT_MESSAGE" value="build(tensorflow_2.yml, requirements.txt): add tensorflow and related packages&#10;&#10;Add TensorFlow and related packages.&#10;&#10;Harrison Strang" />
+    <MESSAGE value="Note To Self&#10;&#10;Learn how to use Git better." />
+    <option name="LAST_COMMIT_MESSAGE" value="Note To Self&#10;&#10;Learn how to use Git better." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
