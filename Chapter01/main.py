@@ -50,5 +50,19 @@ def format_dataset(dataset_ndarray):
 
 
 def one_hot_dataset(dataset_ndarray):
+    """
+    One-hot the labels from the Yann LeCun MNIST database.
+
+    Parameters
+    ----------
+    dataset_ndarray : ndarray
+        The labels for training and testing the dataset.
+
+    Returns
+    -------
+    ndarray
+        The one-hot label dataset.
+    """
     number_of_classes = 10
     dataset_ndarray_one_hot = np.eye(number_of_classes)[dataset_ndarray]
+    return dataset_ndarray_one_hot
