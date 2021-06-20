@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624148482281</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="build(tensorflow_2.yml, requirements.txt): add tensorflow and related packages&#10;&#10;Add TensorFlow and related packages.&#10;&#10;Harrison Strang">
+      <created>1624160664370</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1624160664370</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -245,13 +252,28 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="chapter_02" />
+                        <option value="my_work" />
                       </list>
                     </value>
                   </entry>
                 </map>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="my_work" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -276,7 +298,8 @@
     <MESSAGE value="build(tensorflow_2.yml, requirements.txt): add mnist module&#10;&#10;Add the mnist module from conda-forge&#10;Update tensorflow_2.yml&#10;Update&#10;requirements.txt" />
     <MESSAGE value="build(main): create a file to run my test&#10;&#10;Create a Chapter01.main.py file.&#10;&#10;I intend to run my simple network from&#10;this file.&#10;&#10;Harrison Strang" />
     <MESSAGE value="feat(main): one-hot data labels&#10;&#10;Add function to one-hot the training and testing labels.&#10;&#10;Harrison Strang" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(main): one-hot data labels&#10;&#10;Add function to one-hot the training and testing labels.&#10;&#10;Harrison Strang" />
+    <MESSAGE value="build(tensorflow_2.yml, requirements.txt): add tensorflow and related packages&#10;&#10;Add TensorFlow and related packages.&#10;&#10;Harrison Strang" />
+    <option name="LAST_COMMIT_MESSAGE" value="build(tensorflow_2.yml, requirements.txt): add tensorflow and related packages&#10;&#10;Add TensorFlow and related packages.&#10;&#10;Harrison Strang" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
