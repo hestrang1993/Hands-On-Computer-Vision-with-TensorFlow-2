@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48c5cce2-0f5f-4b7d-bdcb-71e0ac95f146" name="Default Changelist" comment="" />
+    <list default="true" id="48c5cce2-0f5f-4b7d-bdcb-71e0ac95f146" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,12 +51,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="chapter_02" />
-                    <option name="lastUsedInstant" value="1624148511" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="chapter_01" />
-                    <option name="lastUsedInstant" value="1623291899" />
+                    <option name="branchName" value="my_work" />
+                    <option name="lastUsedInstant" value="1624498136" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -265,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624161019915</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat(simple_neural_network_tf_keras): finish model&#10;&#10;Finish model I built using TensorFlow.&#10;&#10;Run model and store results.&#10;&#10;Test if GPU accelerates training. It does.&#10;&#10;Harrison Strang">
+      <created>1624201411002</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1624201411002</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -277,13 +282,18 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="BEK_SORT_TYPE" value="1" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="chapter_02" />
+                        <option value="my_work" />
                       </list>
                     </value>
                   </entry>
@@ -341,7 +351,8 @@
     <MESSAGE value="feat(main): one-hot data labels&#10;&#10;Add function to one-hot the training and testing labels.&#10;&#10;Harrison Strang" />
     <MESSAGE value="build(tensorflow_2.yml, requirements.txt): add tensorflow and related packages&#10;&#10;Add TensorFlow and related packages.&#10;&#10;Harrison Strang" />
     <MESSAGE value="Note To Self&#10;&#10;Learn how to use Git better." />
-    <option name="LAST_COMMIT_MESSAGE" value="Note To Self&#10;&#10;Learn how to use Git better." />
+    <MESSAGE value="feat(simple_neural_network_tf_keras): finish model&#10;&#10;Finish model I built using TensorFlow.&#10;&#10;Run model and store results.&#10;&#10;Test if GPU accelerates training. It does.&#10;&#10;Harrison Strang" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(simple_neural_network_tf_keras): finish model&#10;&#10;Finish model I built using TensorFlow.&#10;&#10;Run model and store results.&#10;&#10;Test if GPU accelerates training. It does.&#10;&#10;Harrison Strang" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
